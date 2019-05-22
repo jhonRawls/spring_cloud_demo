@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: eureka-server
+
+#服务端口
+server:
+  port: 10082
+
+eureka:
+  instance:
+    hostname: rep1
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10081/eureka/
